@@ -1,0 +1,37 @@
+.Projects {
+    width: 48.5%;
+    background-color: #282828;
+    h1 {
+        color: #fff;
+    }
+    .ProjectsList {
+        margin-top: 55px;
+        .ProjectCard {
+            background-color: #fff;
+            display: flex;
+            justify-content: flex-start;
+            padding: 0px 30px;
+            align-items: center;
+            margin-bottom: 8px;
+            color: #282828;
+            height: 55px;
+            .ProjectName {
+                margin-right: 40px;
+            }
+            .ProjectOverview {
+                display: flex;
+                align-items: center;
+                p {
+                    margin: 0px 20px;
+                }
+            }
+            .ProjectActions {
+                display: flex;
+                align-items: center;
+                p {
+                    margin: 0px 20px;
+                }
+            }
+        }
+    }
+}

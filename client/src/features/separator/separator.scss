@@ -1,0 +1,17 @@
+.Separator {
+    width: 3%;
+    background-color: #282828;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3 {
+        font-family: Roboto;
+        transform: rotate(-90deg);
+        margin: 0;
+        min-width: 300px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    } 
+}
